@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  max-width: 1440px;
+  width: calc(100vw - 16px);
+  margin-inline: auto;
+  height: 100%;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 128px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.header__nav a {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+.header__nav a span {
+  font-weight: bold;
+  color: #01989F;
+}
+
+.button_telegram {
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 18px;
+  color: #0B9D41;
+  padding: 16px 24px;
+  border: 1px solid #0B9D41;
+  font-family: "Inter", sans-serif;
+}
+
+.div_relative {
+  position: relative;
+}
+
+.d-flex-a-center {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 48px;
+}
+
+.subtitle {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #333333A5;
+}
+
+.button_download {
+  padding: 24px 54px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Nunito", sans-serif;
+  color: #FFFFFF;
+  background-color: #00ADB5;
+  width: fit-content;
+  border: none;
+}
+
+.section {
+  display: flex;
+}
+.section > div {
+  width: 50%;
+}
+.section .application_detail_00,
+.section .application_detail_01,
+.section .application_01,
+.section .application_00 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.section .figure_00 {
+  height: 698px;
+  width: 100vw;
+  max-width: 50vw;
+  border-radius: 128px 0 0 0;
+  background: linear-gradient(33.99deg, #00ADB5CC 10.52%, #2DD9E1CC 25.4%, #52D8DECC 65.57%, #87F9FECC 84.91%);
+  z-index: -1;
+  left: 128px;
+  position: relative;
+}
+.section .application_00 {
+  height: 652px;
+  top: 128px;
+  left: 64px;
+}
+.section .application_01 {
+  height: 586px;
+  top: 48px;
+  left: 256px;
+}
+.section .application_detail_00 {
+  height: 135px;
+  top: -24px;
+  left: 428px;
+}
+.section .application_detail_01 {
+  height: 137px;
+  top: calc(100% - 32px);
+  left: 0;
+}
+
+.section_download > div:first-child {
+  padding-left: 128px;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.section_professional {
+  margin-top: 228px;
+}
+
+.application_02 {
+  height: 692px;
+  left: 92px;
+  position: relative;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #777777;
+}
+
+.section_background {
+  position: absolute;
+  width: 100%;
+}
+
+.detail_t {
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 341px;
+  text-align: center;
+  color: #00ADB519;
+  left: 100%;
+}
+
+.detail_o {
+  width: 35px;
+  height: 35px;
+  background: url("assets/circle.svg");
+  position: absolute;
+}
+
+.detail_00 {
+  font-size: 250px;
+  left: 52.5%;
+  top: -128px;
+  transform: rotate(-112.5deg);
+}
+
+.detail_01 {
+  left: 150px;
+  top: -325px;
+  transform: rotate(-165deg);
+}
+
+.detail_02 {
+  left: -64px;
+  top: 356px;
+  transform: rotate(40deg);
+}
+
+.detail_03 {
+  left: 64px;
+  top: 64px;
+}
+
+.detail_04 {
+  left: 440px;
+  top: 640px;
+}
+
+.figure_01 {
+  position: absolute;
+  left: -320px;
+}
+
+.line_00 {
+  position: absolute;
+  left: 360px;
+  top: calc(100% - 10px);
+  z-index: -2;
+}
+
+.line_01 {
+  position: absolute;
+  left: 256px;
+  transform: translateY(-50%) rotate(180deg);
+  z-index: -1;
+}
+
+.line_02 {
+  position: absolute;
+  left: 316px;
+  top: -80px;
+  height: 2px;
+  width: calc(100% + 60px);
+  background-color: #92FAFF;
+}
+
+.detail_05 {
+  font-size: 300px;
+  transform: rotate(-112.5deg);
+  right: 0;
+  top: 1128px;
+}
+
+/*# sourceMappingURL=style.css.map */
